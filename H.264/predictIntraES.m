@@ -1,4 +1,4 @@
-function [ Prediccion, Error, RMS, total_bloques, total_verticales, total_horizontales, total_dc, total_sin ] = predict( file, modo )
+function [ Prediccion, Error, RMS, total_bloques, total_verticales, total_horizontales, total_dc, total_sin ] = predictIntraES( file, modo )
 %   lang: ES
 %
 %   Función que realiza la predicción según el estándar H.264

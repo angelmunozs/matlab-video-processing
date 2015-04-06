@@ -1,4 +1,4 @@
-function [ RMS, ceros_porcentaje, Imagen_Recuperada, Imagen_Error ] = quantization( file, escala )
+function [ RMS, ceros_porcentaje, Imagen_Recuperada, Imagen_Error ] = quantizationES( file, escala )
 %   lang: ES
 %
 %   Cuantificador de imágenes tipo Intra según el estándar MPEG-1
